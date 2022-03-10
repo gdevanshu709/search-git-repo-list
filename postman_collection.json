@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "49968daf-ce15-4c31-b359-956cd0ef90c1",
+		"name": "Search-Git-Repo-List",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ec2-3-85-98-47.compute-1.amazonaws.com:3000/?page=1&order=8&search=mongodb://localhost:27017&per_page=5&sort=stars",
+					"host": [
+						"localhost"
+					],
+					"port": "6001",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "order",
+							"value": "8"
+						},
+						{
+							"key": "search",
+							"value": "mongodb://localhost:27017"
+						},
+						{
+							"key": "per_page",
+							"value": "5"
+						},
+						{
+							"key": "sort",
+							"value": "stars"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
